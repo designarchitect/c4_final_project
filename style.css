@@ -1,0 +1,96 @@
+@import url(http://fonts.googleapis.com/css?family=Trade+Winds);
+
+html {
+    width: 100%;
+}
+
+body {
+    margin: 0px;
+    /*background: url('images/navy.png');*/
+    #font-family: 'Trade Winds';
+}
+
+header {
+    background: #191919;
+    #background: url('images/squares.png');
+    border:;
+    width: 100%;
+    height: 130px;
+    margin-top: -5px;
+    box-shadow: 0 0 10px 1px #C4EDE4;
+}
+
+/*.bottom {
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    left: 0;
+    background: url('images/carbon.png');
+    #box-shadow: 0 0 10px 1px #e5e500;
+}*/
+
+.score, .startButton {
+    display: inline-block; 
+}
+
+.score {
+    color: #A6D1C8;
+    #opacity: 0.8;
+    font-size: 40px;
+    margin: 5px;
+    margin-left: 40px;
+}
+
+.startButton {
+    width: 150px;
+    height: 40px;
+    border: none;
+    font-size: 18px;
+    color: #91CFCA;
+    text-align: center;
+    background: none;
+    border: 4px inset #91CFCA;
+    transition: 2s;
+    margin-left: 40px;
+}
+
+.startButton:hover {
+    color: #BF4D28;
+    background: none;
+    border: 4px inset #BF4D28;
+}
+
+.startButton:focus {
+    outline: none;
+}
+
+#game {
+    position: absolute;
+    background: black;
+    #opacity: 0.5;
+    border: 4px outset #C4EDE4;
+    height: 75vh;
+    width:700px;
+    background: #191919;
+    margin-left: 40px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+
+#icedragon {
+    position: absolute;
+    width: 50px;
+}
+
+
+/*FOOTER*/
+/*footer .carbon {
+    width: 100%;
+    height: 30px;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 0;
+    background: url('images/carbon.png');
+    #box-shadow: 0 0 10px 1px #e5e500;    
+}*/
