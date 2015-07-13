@@ -1,5 +1,5 @@
 //★ CHANGE OF SOMETHIN... ★//
-var delta = 4;
+var delta = 2.3;
 var master_heartbeat = 15;
 var deltaY = delta;
 var deltaX = 0;
@@ -472,9 +472,6 @@ function dragonObject(initial_speed){
         $('#norm').css({'visibility': 'hidden'});
         $('#happy').css({'visibility':'visible'});
         $('#defeated').css({'visibility':'hidden'});        
-        // document.getElementById("happy").style.visibility = "visible";
-        // document.getElementById("norm").style.visibility = "hidden";
-        // document.getElementById("defeated").style.visibility = "hidden";
 
         target_coinMega.remove(); 
         $("#game").append(plusCoinLilac); 
